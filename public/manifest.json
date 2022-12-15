@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Wonderfull favz",
+    "description": "kek; plop!",
+    "version": "2.0",
+    "background": {},
+    "permissions": ["storage", "activeTab", "scripting", "bookmarks"],
+    "options_page": "options.html",
+    "chrome_url_overrides" : { "newtab": "index.html" },
+    "action": { "default_popup": "popup.html", "default_icon": {} },
+    "icons": {}
+}

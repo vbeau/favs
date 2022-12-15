@@ -1,0 +1,17 @@
+@import 'fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        @apply font-jetbrains;
+        font-size: 62.5%;
+    }
+
+    body {
+        @apply bg-neutral-900 text-white h-screen w-screen text-2xl bg-repeat bg-bg-size;
+    }
+}
