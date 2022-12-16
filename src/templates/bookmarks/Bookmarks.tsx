@@ -45,7 +45,7 @@ const Bookmarks = () => {
 
 
     return (
-        <div className={"flex flex-col items-center"}>
+        <section className={"flex flex-col items-center"}>
             <div ref={ref}>
                 <ul className={"inline-flex items-center gap-6 justify-center"}>
                     { bookmarks.map((bookmark, idx) => (
@@ -61,7 +61,7 @@ const Bookmarks = () => {
                     ))}
                 </ul>
             </div>
-        </div>
+        </section>
 
     )
 }
